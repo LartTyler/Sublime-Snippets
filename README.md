@@ -7,7 +7,7 @@ for code I write every day.
 First, navigate to your Sublime user packages directory.
 
 **Windows**:
->  C:\Users\{user}\AppData\Roaming\Sublime Text 2\Packages\User
+>  C:\Users\\{user}\AppData\Roaming\Sublime Text 2\Packages\User
 
 **OSX**:
 > /Users/{user}/Library/Application Support/Sublime Text 2/Packages/User
@@ -16,7 +16,7 @@ First, navigate to your Sublime user packages directory.
 > ~/.config/sublime-text-2/Packages/User
 
 Then, create a folder to store the snippets from this repository (I recommend simply naming it `Sublime-Snippets`). In
-that directory, execute the follwing commands (requires the `git` command [duh]).
+that directory, execute the follwing commands (requires the `git` command [duh...]).
 
 ```
 git init
