@@ -16,14 +16,15 @@ different depending on which version of Sublime you are using.
 **Linux**:
 > ~/.config/sublime-text-2/Packages/User
 
-Then, create a folder to store the snippets from this repository (I recommend simply naming it `Sublime-Snippets`). In
-that directory, execute the follwing commands (requires the `git` command [duh...]).
+Then, execute the follwing command (requires the `git` command [duh...]).
 
 ```
-git init
-git remote add upstream git@github.com:LartTyler/Sublime-Snippets.git
-git pull upstream master
+git clone https://github.com/LartTyler/Sublime-Snippets.git Sublime-Snippets
 ```
+
+The final argument ("Sublime-Snippets") will be the name of the directory that the snippets are stored in. It can be
+anything you like, but I recommend naming it something that will allow you to distinguish it from any other packages
+in the folder.
 
 After that, you're good to go. Sublime will automatically find the new snippets and let you immediately begin using them.
 
