@@ -4,7 +4,8 @@ together over time, ranging from library specific snippets (such as Doctrine or 
 for code I write every day.
 
 # Installation
-First, navigate to your Sublime user packages directory.
+First, navigate to your Sublime user packages directory. The default path for each system is below, but may be slightly
+different depending on which version of Sublime you are using.
 
 **Windows**:
 >  C:\Users\\{user}\AppData\Roaming\Sublime Text 2\Packages\User
