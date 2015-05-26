@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+while ((\$${1:row} = \$${2:it}->next()) !== false)
+	$3
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>qbiterate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
