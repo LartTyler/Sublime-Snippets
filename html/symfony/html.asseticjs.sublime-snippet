@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+{% block javascripts %}
+	{{ parent }}
+
+	{% javascripts
+		'@$1Bundle/Resources/public/js/${2:Directory}/${3:filename}.js'
+	%}
+		<script src="{{ asset_url }}"></script>
+	{% endjavascripts %}
+{% endblock %}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>asseticjs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.twig</scope>
+</snippet>
