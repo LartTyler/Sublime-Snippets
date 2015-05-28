@@ -28,6 +28,14 @@ in the folder.
 
 After that, you're good to go. Sublime will automatically find the new snippets and let you immediately begin using them.
 
+**Important note for HTML snippets*: I recommend adding the following line to your Sublime user preferences.
+
+```
+"auto_complete_selector": "sources, text.html, text.html.twig"
+```
+
+Otherwise, you'll have to type out the entire snippet trigger for snippets within HTML and Twig scopes.
+
 # Usage
 The naming scheme for each snippet denotes how and when they can be triggered. The format is
 `<scope>.<tab-trigger>.sublime-snippet`.
