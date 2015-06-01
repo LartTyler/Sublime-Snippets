@@ -3,7 +3,7 @@
 \$${1:this->getDoctrine()}->getManager()$2->flush();
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>docflush</tabTrigger>
+	<tabTrigger>doctrineflush</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
 </snippet>
