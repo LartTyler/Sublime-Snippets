@@ -4,7 +4,7 @@
  * @Template("${1:Bundle}:${2:Directory}:${3:file}.html.twig")
  */
 public function $4Action(${5:Request \$request}) {
-	$6
+	$0
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
