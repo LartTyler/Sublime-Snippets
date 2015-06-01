@@ -38,7 +38,8 @@ Otherwise, you'll have to type out the entire snippet trigger for snippets withi
 
 # Usage
 The naming scheme for each snippet denotes how and when they can be triggered. The format is
-`<scope>.<tab-trigger>.sublime-snippet`.
+`<scope>.<namespace>.<tab-trigger>.sublime-snippet`.
 
-So, for example, if you installed `php/doctrine/php.qbcreate.sublime-snippet`, you can trigger it any time you're in the
-PHP scope using `qbcreate` (or any shorthand variation thereof, such as `qbc`).
+In most cases, the trigger text for a snippet is <namespace> concatenated with <tab-trigger>. So, for example, you can
+trigger the snippet for creating a Doctrine query builder any time you're in the PHP scope using `doctrineqbcreate` (or
+any shorthand variation thereof, such as `dqbc`).
