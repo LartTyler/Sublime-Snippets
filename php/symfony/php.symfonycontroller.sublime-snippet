@@ -7,7 +7,7 @@ use Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Template;
 use Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller;
 
 class ${4:My}Controller extends Controller {
-	$5
+	$0
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
