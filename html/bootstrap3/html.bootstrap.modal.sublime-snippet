@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+<div class="modal fade" id="${1:my}-modal" tabindex="-1" role="dialog" aria-labelledby="${1:my}-modal-title" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+
+				<h4 class="modal-title" id="${1:my}-modal-title">
+					${2:My Title}
+				</h4>
+			</div>
+
+			<div class="modal-body">
+				$0
+			</div>
+
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">${3:Cancel}</button>
+				<button type="button" class="btn btn-primary">${4:Save}</button>
+			</div>
+		</div>
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bootstrapmodal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html, text.html.twig</scope>
+</snippet>

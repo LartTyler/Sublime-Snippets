@@ -1,13 +1,17 @@
 <snippet>
 	<content><![CDATA[
-${1:public} function set$2($3 \$${4:${2/^(.)/\L\1\E/g}}) {
-	\$this->$4 = \$$4;
+${1:public} function get$2() {
+	return \$this->${3:${2/^(.)/\L\1\E/g}};
+}
+
+$1 function set$2(\$$3) {
+	\$this->$3 = \$$3;
 
 	return \$this;
-}$5
+}$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>setterhinted</tabTrigger>
+	<tabTrigger>gettersetter</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
 </snippet>

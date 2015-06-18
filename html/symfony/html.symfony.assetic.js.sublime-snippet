@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 {% block javascripts %}
-	{{ parent }}
+	{{ parent() }}
 
 	{% javascripts
 		'@$1Bundle/Resources/public/js/${2:Directory}/${3:filename}.js'

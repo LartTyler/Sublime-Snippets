@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 {% block stylesheets %}
-	{{ parent }}
+	{{ parent() }}
 
 	{% stylesheets
 		'@$1Bundle/Resources/public/css/${2:Directory}/${3:filename}.css'

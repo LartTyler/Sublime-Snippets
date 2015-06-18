@@ -1,13 +1,9 @@
 <snippet>
 	<content><![CDATA[
-${1:public} function set$2($3 \$${4:${2/^(.)/\L\1\E/g}}) {
-	\$this->$4 = \$$4;
-
-	return \$this;
-}$5
+return \$this->redirect(${1:\$this->generateUrl('$2')});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>setterhinted</tabTrigger>
+	<tabTrigger>symfonycontrollerredirect</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
 </snippet>
