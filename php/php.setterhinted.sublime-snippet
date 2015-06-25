@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-${1:public} function set$2($3 \$${4:${2/^(.)/\L\1\E/g}}) {
+${1:public} function set$2(${3:$2} \$${4:${2/^(.)/\L\1\E/g}}) {
 	\$this->$4 = \$$4;
 
 	return \$this;
-}$5
+}$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>setterhinted</tabTrigger>
